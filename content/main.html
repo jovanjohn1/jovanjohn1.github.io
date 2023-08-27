@@ -9,6 +9,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,7 +27,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#screenshots">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -44,9 +45,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-                    <h3>About me</h3>
-                    <p style="font-size: medium;">Hi there! I'm a newbie and an aspiring software engineer specializing in front-end development. I focus on creating clean and user-friendly websites. On the other hand, I do create and have experience in graphic design using Canva, Photopea and some other related MS tools.</p>
-                   <br><br> <p style="font-size: medium;">for more details, check out my CV below!</p> <a href="docs/CV_MAGALLON.pdf" target="_blank" class="btn btn-default-new" style="font-size: medium;">VIEW CV</a> </div>
+                    <h3 style="font-size: 2.8rem;">About me</h3>
+                    <p style="font-size: medium; font-weight: 100;">Hi there! I'm a newbie and an aspiring front-end web developer and graphic designer. I focus on creating clean and user-friendly websites. Alongside, I have experience in graphic design using Canva, Photopea and some other related MS tools.</p>
+                   <br><br> <p style="font-size: medium; font-weight: 100;">for more details, check out my CV below!</p> <a href="docs/CV_MAGALLON.pdf" target="_blank" class="btn btn-default-new" style="font-size: medium;">VIEW CV</a> </div>
             </div>
         </div>
     </section>
@@ -55,7 +56,10 @@
     
     <section class="service-section" id="services">
         <div class="container">
-             <h3>service</h3>
+            
+            <div>
+                <h1 style="color: rgb(44, 45, 46); margin-bottom: 3rem; font-weight: 501;">Services</h1>
+            </div>
 <br>
                 <div >
                     <div class="service-items">
@@ -74,20 +78,16 @@
                             <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
                         </div>
                         <h4><a href="#">Graphic Designs</a></h4>
-                        <p>Creating infographics, presentations, and other pub mats using Canva, and MS Powerpoint.</p> <br><br>
-                        <hr class="solid" style=" border-top: 3px solid #3e7280;"> <br><br>
-                    </div>
-                </div>
-<br>
-                <h3 style="margin-bottom: 1%;">Projects</h3>
+                        <p>Creating infographics, presentations, and other pub mats using Canva, and MS Powerpoint.</p>
+
+                <!-- <h3 style="margin-bottom: 1%;">Projects</h3> -->
             </div>
         </div>
     </section>
-
     
 
 
-
+<!-- 
      <section class="portfolio-section" id="portfolio">
          <div class="portfolio-section-inner">
 
@@ -99,17 +99,7 @@
                        <div class="portfolio-section-text-inner">
                         <p style="font-size: 15px; color: rgb(255, 187, 104);">Andro-Dikonil</p><br>
                         <p style="font-size: 13px;">A web application created in compliance for my Capstone project in college. This was designes and developed with my groupmates Elvin Kim Angulo, and Patricia Orquia.</p>
-                        <!-- <a href="#">read more</a> -->
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-section-data" style="background-image:url('img/folio2.png')">
-                    <div class="portfolio-section-text">
-                        <div class="portfolio-section-text-inner">
-                          <p style="font-size: 15px; color: rgb(255, 187, 104);">Personal Portfolio</p><br>
-                          <p style="font-size: 13px;">A website designed and developed from self interest of showcasing my works in the field of IT.</p>
-                        <!-- <a href="#">read more</a> -->
+                   
                         </div>
                     </div>
                 </div>
@@ -119,7 +109,7 @@
                         <div class="portfolio-section-text-inner">
                           <p style="font-size: 15px; color: rgb(255, 187, 104);">Graphic Design</p><br>
                           <p style="font-size: 13px;">Infographics and other pub mats I have made for school projects, organizations, and individual commisions.</p>
-                        <!-- <a href="#">read more</a> -->
+                      
                         </div>
                     </div>
                 </div>
@@ -130,9 +120,68 @@
          
          </div>
          
-         
-    </section>
+    </section> -->
     
+
+
+    <section class="screenshots" id="screenshots">
+        <div>
+            <h1 style="color: aliceblue; margin: 3rem auto;">Projects</h1>
+        </div>
+  <!-- Card  -->
+  <div class="container">
+    <div class="flex">
+      <div class="card">
+        <img src="img/proj1.png" alt="">
+        <div class="card-body">
+          <h3 class="projhead">Graphic Design (IYO)</h3>
+          <p class="description" style="color: black ; margin: 2rem;" >Infographics, Posters, and other pubmats I have made during my active service as Graphics Committee Head on Inarado Youth Organization (IYO)
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/proj2.png" alt="">
+        <div class="card-body">
+          <h3 class="projhead">Graphic Design (Commisions)</h3>
+          <p class="description" style="color: black ; margin: 2rem;" > Posters of events, projects, and other commisioned posters I have made as freelance artist.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/proj3.png" alt="">
+        <div class="card-body">
+          <h3 class="projhead">Andro-Dikonil (Android App)</h3>
+          <p class="description" style="color: black ; margin: 2rem;">Android Application made in compliance for Capstone Project with my group, Elvin Kim, and Patricia. Used Flutter framework, and Heroku as online platform for project-control and database.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/proj4.png" alt="">
+        <div class="card-body">
+          <h3 class="projhead">Personal Portfolio (Website)</h3>
+          <p class="description" style="color: black ; margin: 2rem;">Responsive website I have created to outline and present my projects as web developer and graphic designer.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/proj5.png" alt="">
+        <div class="card-body">
+          <h3 class="projhead">Codepen</h3>
+          <p class="description" style="color: black ; margin: 2rem;">Code snippets I have made on my Codepen account. This contains basic projects made of HTML, CSS, JAVASCRIPT for practice purposes.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  
+          </div>
+    </section>
+
+
+
     <footer id="contact">
         <div class="container">
             <div class="row">
@@ -164,7 +213,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
-  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     <script src="js/main.js"></script> 

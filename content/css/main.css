@@ -8,7 +8,7 @@ font-family: 'Roboto Slab', serif; */
 */
 
 body {
-    background: #a6ddeb;
+    background: #b4c5c7;
     color: #414141;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -171,10 +171,16 @@ header .header-content .header-content-inner {
 }
 
 #phead {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 #phead1 {
     font-size: 2rem;
+}
+
+#phead:hover {
+    font-size: 3.3rem;
+    color: #c34d34;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4 {
@@ -206,7 +212,7 @@ h1, h2, h3, h4 {
 /**** HEADER END ****/
 /**** ABOUT ****/
 .bg-color{
-    background:#242527;
+    background:#222;
 }
 
 section{
@@ -240,10 +246,11 @@ section{
 }
 
 .btn-default-new{
-    background: #c34d34;
+
+    background: #b4c5c7;
     border-radius: 30px;
-    border: solid 3px #c34d34;
-    color: #ffffff;
+    border: solid 3px #b4c5c7;
+    color: #030303;
     font-size: 18px;
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
@@ -251,14 +258,15 @@ section{
     line-height: 3.1;
     margin-top: 30px;
     letter-spacing: 0.05em;
-    -ms-transition: all 0.6s ease-in-out;
+    /* -ms-transition: all 0.6s ease-in-out;
     -webkit-transition: all 0.6s ease-in-out;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out; */
 }
 
 .btn-default-new:hover, .btn-default-new:focus{
-    background: #fff;
-    color: #c34d34;
+    background: #c34d34;
+    color: #ffffff;
+    font-weight: 1000;
     border-color: #c34d34;
 }
 /**** ABOUT END ****/
@@ -392,7 +400,7 @@ section{
 /**** FOOTER ****/
 
 footer{
-    background: #222;
+    background: #181818;
     padding: 80px 0;
     position: relative;
     text-align: center;
@@ -443,6 +451,95 @@ footer a:hover{
 }
 
 
+.screenshots {
+    background: #222;
+
+}
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  .container {
+    margin: auto;
+    padding: 1rem;
+    max-width: 150rem;
+  }
+  
+  .flex {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  .flex > * {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    min-width: 34rem;
+    max-width: calc(12.5rem + 13vw);
+    background: #b4c5c7;
+    border-radius: 0.75em;
+    overflow: hidden;
+    box-shadow: 0 0.25em 0.6em #0005, 0 0.65em 1em #0004;
+    transition: transform 270ms ease;
+    position: relative;
+  }
+  
+  .card::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    inset: 0;
+    isolation: isolate;
+    mix-blend-mode: color;
+    opacity: 0;
+  }
+  
+  .card:hover::before {
+    opacity: 1;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .card-body {
+    height: 200px;
+    padding: 1em 0;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #1f1f1f;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+ .projhead{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+ }
+.projdescription{
+    font-size: 1rem;
+}
 
