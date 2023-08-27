@@ -167,6 +167,14 @@ header .header-content .header-content-inner {
     max-width: 1000px;
     margin: 0 auto;
     text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.41);
+    font-family: 'Roboto Slab', serif;
+}
+
+#phead {
+    font-size: 3.5rem;
+}
+#phead1 {
+    font-size: 2rem;
 }
 
 h1, h2, h3, h4 {
@@ -187,7 +195,7 @@ h1, h2, h3, h4 {
     width: 80px;
     height: 3px;
     margin: 20px auto 0;
-    background: #F05F40;
+    background: #242527;
 }
 
 .header-content-inner p {
@@ -198,7 +206,7 @@ h1, h2, h3, h4 {
 /**** HEADER END ****/
 /**** ABOUT ****/
 .bg-color{
-    background:#F05F40;
+    background:#242527;
 }
 
 section{
